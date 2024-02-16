@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tutorial1.LoginController">
+   <children>
+      <AnchorPane prefHeight="703.0" prefWidth="607.0">
+         <children>
+            <Text layoutX="25.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Details">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name:" />
+            <Text layoutX="74.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:" />
+            <Text layoutX="74.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" />
+            <Text layoutX="74.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday:" />
+            <Text layoutX="74.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:" />
+            <Text layoutX="74.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Civil Status:" />
+            <Text layoutX="74.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country:" />
+            <TextField layoutX="193.0" layoutY="61.0" />
+            <TextField layoutX="193.0" layoutY="98.0" />
+            <TextField layoutX="193.0" layoutY="132.0" />
+            <DatePicker layoutX="193.0" layoutY="169.0" />
+            <RadioButton layoutX="193.0" layoutY="211.0" mnemonicParsing="false" text="Male" />
+            <RadioButton layoutX="281.0" layoutY="211.0" mnemonicParsing="false" text="Female" />
+            <RadioButton layoutX="193.0" layoutY="249.0" mnemonicParsing="false" text="Single" />
+            <RadioButton layoutX="281.0" layoutY="249.0" mnemonicParsing="false" text="Married" />
+            <RadioButton layoutX="372.0" layoutY="249.0" mnemonicParsing="false" text="Divorced" />
+            <TextField layoutX="193.0" layoutY="288.0" />
+            <Text layoutX="25.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Details">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:" />
+            <Text layoutX="74.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile:" />
+            <TextField layoutX="193.0" layoutY="375.0" />
+            <TextField layoutX="193.0" layoutY="434.0" />
+            <Text layoutX="25.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login Details">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" />
+            <Text layoutX="74.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+            <Text layoutX="73.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password:" />
+            <TextField layoutX="193.0" layoutY="531.0" />
+            <PasswordField layoutX="193.0" layoutY="576.0" />
+            <PasswordField layoutX="193.0" layoutY="619.0" />
+            <Button layoutX="368.0" layoutY="659.0" mnemonicParsing="false" text="Submit">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="456.0" layoutY="659.0" mnemonicParsing="false" text="Clear">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="520.0" layoutY="-1.0" prefHeight="706.0" prefWidth="88.0" style="-fx-background-color: #4a736f;">
+               <children>
+                  <ImageView blendMode="MULTIPLY" fitHeight="189.0" fitWidth="119.0" layoutX="2.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pics/vector.jpg" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+            <AnchorPane layoutY="-6.0" prefHeight="26.0" prefWidth="555.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
